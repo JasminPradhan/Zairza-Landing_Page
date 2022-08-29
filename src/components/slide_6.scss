@@ -1,0 +1,181 @@
+$colour-1: #1071ff;
+$colour-2: #00255c;
+$colour-3: #ff7610;
+$colour-4: #ffffff;
+$colour-5: #ffeee1;
+
+.container-6{
+    height: 768px;
+    width: auto;
+    background-color: #E7F1FF;
+    ;
+    .section-6 {
+    display: flex;
+    flex-direction: row;
+    .section-61 {
+        padding-top: 23%;
+        width: 40%;
+        padding-left: 10%;
+        z-index: 1;
+    }
+    .section-62 {
+        padding-top: 17%;
+        width: 60%;
+    }
+    }
+    .title-6 {
+    font-size: 60px;
+    height: 144px;
+    width: 560px;
+    }
+    .content-6 {
+    height: 57px;
+    width: 406px;
+    font-size: medium;
+    padding-bottom: 40px;
+    padding-top: 16px;  
+    color: darkgray; 
+    font-family:GilroyL ;
+    }
+    .Visit-team {
+    height: 50px;
+    width: 150px;
+    color: white;
+    border-radius: 48px;
+    background-color:$colour-1;
+    border: none;
+    font-size: large;
+    font-family:GilroyL ;
+    }
+    .img-6 {
+    height: 320px;
+    width: 468px;
+    margin-left: 5%;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .container-6{
+        height: 900px;
+}
+}
+@media screen and (max-width: 855px) {
+    .container-6{
+        height: 1050px;
+}
+}
+@media screen and (max-width: 855px) and (min-width: 320px){
+    .container-6 {
+        width: auto;
+        .section-6 {
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: space-between;
+            width: 100%;
+            padding-right: 0%;
+        }
+        .section-61{
+            width: 100%;
+            text-align: center;
+            padding-top: 17%;
+            .title-6 {
+                font-size: 200%;
+                height: 50%;
+                width: 220%;
+                margin-left: -8%;
+                }
+            .content-6 {
+            height: 40%;
+            width: 220%;
+            font-size: medium;
+            padding-bottom: 40px;
+            padding-top: 16px;
+            color: darkgray;
+            font-family: GilroyL;
+            margin-left: -8%;
+            }
+            .Visit-team {
+            height: 45px;
+            width: 120%;
+            border-radius: 48px;
+            background-color: $colour-1;
+            border: none;
+            font-size: medium;
+            font-family: GilroyL;
+            color: $colour-4;
+            }
+        }
+        .section-62{
+            width: 87%;
+            padding-top: 27%;
+        }
+        .btn6{
+            width: 80%;
+            margin-left: 20%;
+            padding-left: 37%;
+        }
+        .img-6 {
+            height: 100%;
+            width: 120%;
+            padding-left: 15%;
+            padding-top: 12%;
+        }
+    }
+}
+
+@media screen and (max-width: 998px) and (min-width: 856px){
+    .container-6{
+        height: 680px;
+        .section-6 {
+        .section-61 {
+            padding-top: 22%;
+            width: 52%;
+            padding-left: 7%;
+            z-index: 1;
+        }
+        .section-62 {
+            padding-top: 23%;
+            width: 48%;
+        }
+        }
+        .title-6 {
+        font-size: 350%;
+        height: 50%;
+        width: 115%;
+        }
+        .img-6 {
+        height: 78%;
+        width: 90%;
+        margin-left: -3%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 999px) {
+    .container-6{
+        height: 700px;
+        .section-6 {
+        .section-61 {
+            padding-top: 25%;
+            width: 52%;
+            padding-left: 7%;
+            z-index: 1;
+        }
+        .section-62 {
+            padding-top: 23%;
+            width: 48%;
+        }
+        }
+        .title-6 {
+        font-size: 350%;
+        height: 50%;
+        width: 115%;
+        }
+        .img-6 {
+        height: 90%;
+        width: 90%;
+        margin-left: -5%;
+        }
+    }
+}

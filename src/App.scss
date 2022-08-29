@@ -1,0 +1,62 @@
+@font-face {
+  font-family:GilroyB;
+  src: url('./components/fonts/Gilroy-ExtraBold.woff');
+}
+@font-face {
+  font-family:GilroyL;
+  src: url('./components/fonts/Gilroy-Light.woff');
+}
+$colour-1: #1071ff;
+$colour-2: #00255c;
+$colour-3: #ff7610;
+$colour-4: #ffffff;
+$colour-5: #ffeee1;
+
+.arrow {
+  margin-left: 8px;
+}
+
+
+//media queries phone
+@media screen and (max-width: 600px) and (min-width: 300px) {
+
+}
+
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }

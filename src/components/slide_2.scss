@@ -1,0 +1,192 @@
+$colour-1: #1071ff;
+$colour-2: #00255c;
+$colour-3: #ff7610;
+$colour-4: #ffffff;
+$colour-5: #ffeee1;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: GilroyB;
+}
+.container-2 {
+    background-color: $colour-5;
+    height: 768px;
+    width: auto;
+    .section-2 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+    .section-22{
+        width: 55%;
+        padding-top: 18%;
+        padding-left: 2%;
+    }
+    .section-21{
+        width: 45%;
+        padding-top: 20%;
+    }
+    }
+    .title-2 {
+        font-size: 60px;
+        height: 144px;
+        width: 510px;
+        }
+    .content-2 {
+    height: 57px;
+    width: 406px;
+    font-size: medium;
+    padding-bottom: 40px;
+    color: darkgray;
+    padding-top: 16px;
+    font-family: GilroyL;
+    }
+    .Have-A-Look {
+    height: 56px;
+    width: 226px;
+    color: colour-4;
+    border-radius: 48px;
+    background-color: $colour-3;
+    border: none;
+    font-size: larger;
+    font-family: GilroyL;
+    color: $colour-4;
+    }
+    .img-2 {
+    height: 325px;
+    width: 540px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .container-2{
+        height: 900px;
+}
+}
+@media screen and (max-width: 855px) {
+    .container-2{
+        height: 1050px;
+}
+}
+
+@media screen and (max-width: 855px) and (min-width: 320px){
+    .container-2 {
+        background-color: #F9FAFB;
+        // height: 920px;
+        width: auto;
+        .section-2 {
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+            width: 100%;
+            padding-right: 0;
+        .section-21{
+            width: 82%;
+            text-align: center;
+            padding-left: 12%;
+            padding-top: 18%;
+            .title-2 {
+                font-size: 200%;
+                height: 50%;
+                width: 85%;
+                margin-left: 4%;
+                }
+            .content-2 {
+            height: 40%;
+            width: 90%;
+            font-size: medium;
+            padding-bottom: 40px;
+            padding-top: 16px;
+            font-family: GilroyL;
+            margin-left: 2%;
+            color: darkgray;
+            }
+            .Have-A-Look {
+            height: 45px;
+            width: 60%;
+            color: colour-4;
+            border-radius: 48px;
+            background-color: $colour-1;
+            border: none;
+            font-size: medium;
+            font-family: GilroyL;
+            color: $colour-4;
+            padding-bottom: 1%;
+            padding-left: 1%;
+            }
+        }
+        .section-22{
+            width: 92%;
+            padding-top: 28%;
+        }
+        .btn2{
+            width: 80%;
+            margin-left: 7%;
+        }
+        }
+        .img-2 {
+            height: 100%;
+            width: 85%;
+            padding-left: 8%;
+        }
+    }
+}
+@media screen and (max-width: 998px) and (min-width: 856px){
+    .container-2 {
+        background-color: $colour-5;
+        height: 680px;
+        width: auto;
+        .section-2 {
+        padding-right: 7%;
+        .section-22{
+            width: 45%;
+            padding-top: 20%;
+            padding-left: 1%;
+        }
+        .section-21{
+            width: 55%;
+            padding-top: 20%;
+        }
+        }
+        .title-2 {
+            font-size: 340%;
+            height: 50%;
+            width: 105%;
+            }
+        .img-2 {
+        height: 72%;
+        width: 92%;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1250px) and (min-width: 999px) {
+    .container-2 {
+        background-color: $colour-5;
+        height: 700px;
+        width: auto;
+        .section-2 {
+        display: flex;
+        flex-direction: row;
+        padding-right: 10%;
+        .section-22{
+            width: 52%;
+            padding-top: 18%;
+            padding-left: 2%;
+        }
+        .section-21{
+            width: 48%;
+            padding-top: 20%;
+        }
+        }
+        .title-2 {
+            font-size: 60px;
+            height: 144px;
+            width: 510px;
+            }
+        .img-2 {
+        height: 72%;
+        width: 90%;
+        }
+    }
+}
+

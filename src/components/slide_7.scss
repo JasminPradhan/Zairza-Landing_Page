@@ -1,0 +1,186 @@
+$colour-1: #1071ff;
+$colour-2: #00255c;
+$colour-3: #ff7610;
+$colour-4: #ffffff;
+$colour-5: #ffeee1;
+
+.container-7{
+    height: 628px;
+    width: auto;
+    background-color: $colour-2;
+    color: white;
+    .section-7 {
+    display: flex;
+    flex-direction: row;
+    .section-71 {
+        padding-left: 10%;
+        padding-top: 15%;
+    }
+    .section-72 {
+        padding-top: 39%;
+        padding-left: 17%;
+        display: flex;
+        flex-direction: row;
+    }
+    }
+    .title-7 {
+    font-size: 58px;
+    height: 144px;
+    width: 500px;
+    }
+    .content-71 {
+    height: 57px;
+    width: 420px;
+    font-size: medium;
+    padding-bottom: 40px;
+    padding-top: 16px;
+    font-family:GilroyL ;
+    }
+    .content-72 {
+    height: 57px;
+    width: 406px;
+    font-family:GilroyL ;
+    font-size: 12px;
+    padding-top: 60px;
+    }
+    .img-7 {
+    height: 40px;
+    width: 40px;
+    padding-right: 18px;
+    padding-left: 18px;
+    }
+}
+
+@media screen and (max-width: 855px) and (min-width: 680px) {
+    .container-7{
+        height: 600px;
+}
+}
+@media screen and (max-width: 679px) and (min-width: 400px) {
+    .container-7{
+        height: 280px;
+}
+}
+@media screen and (max-width: 399px) and (min-width: 320px) {
+    .container-7{
+        height: 230px;
+}
+}
+
+@media screen and (max-width: 855px) and (min-width: 320px) {
+    .container-7{
+        background-color:rgb(1, 1, 14);
+        // height: 280px;
+        width: auto;
+        .section-7 {
+            display: flex;
+            flex-direction: column;
+            .section-71 {
+                padding-left: 10%;
+                padding-top: 15%;
+            }
+            .section-72 {
+                padding-top: 2%;
+                padding-left: 8%;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+        // .section-72 {
+        //     padding-top: 39%;
+        //     display: flex;
+        //     flex-direction: row;
+        //     width: 40%;
+        //     padding-left: 0%;
+        // }
+        // .section-71{
+        //     width: 60%;
+        // }
+        .title-7 {
+            font-size: 150%;
+            height: 20%;
+            width: 150%;
+            }
+        .content-71 {
+            height: 20%;
+            width: 90%;
+            font-size: 50%;
+            padding-bottom: 20px;
+            padding-top: 16px;
+            font-family:GilroyL ;
+            padding-bottom: 10%;
+            }
+            .content-72 {
+            height: 20%;
+            width: 89%;
+            font-family:GilroyL ;
+            font-size: 30%;
+            padding-top: 5px;
+        }
+        .img-7 {
+            height: 15px;
+            width: 15px;
+            padding-right: 10px;
+            padding-left: 10px;
+            }
+    }
+}
+@media screen and (max-width: 998px) and (min-width: 856px){
+    .container-7{
+        width: auto;
+        .section-7 {
+        .section-71 {
+            padding-left: 7%;
+            padding-top: 15%;
+        }
+        .section-72 {
+            padding-top: 46%;
+            padding-left: 5%;
+            display: flex;
+            flex-direction: row;
+        }
+        }
+        .title-7 {
+        font-size: 340%;
+        height: 40%;
+        width: 80%;
+        }
+        .img-7 {
+        height: 23px;
+        width: 23px;
+        padding-right: 14px;
+        padding-left: 14px;
+        }
+    }
+    
+}
+
+@media screen and (max-width: 1200px) and (min-width: 999px) {
+    .container-7{
+        width: auto;
+        .section-7 {
+        .section-71 {
+            padding-left: 10%;
+            padding-top: 15%;
+        }
+        .section-72 {
+            padding-top: 46%;
+            padding-left: 0%;
+            display: flex;
+            flex-direction: row;
+            margin-left: -1%;
+        }
+        }
+        .title-7 {
+        font-size: 56px;
+        height: 40%;
+        width: 90%;
+        }
+        .img-7 {
+        height: 30px;
+        width: 30px;
+        padding-right: 14px;
+        padding-left: 14px;
+        }
+    }
+}
